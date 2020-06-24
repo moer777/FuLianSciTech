@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>首页-福链科技</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/FuLian_Homepage_css.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="fonts/glyphicons-halflings-regular.eot"></script>
+    <script src="js/FuLian_Homepage_js.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <!--头部-->
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white hp_header_navbar_sty">
+                    <a href="FuLian_Homepage.html" class="navbar-brand">
+                        <img src="images/公司logo.jpg" alt="公司品牌图标" class="d-inline-block hp_header_logo_sty">
+                        <span class="hp_header_name_sty">福链科技</span>
+                    </a>
+                    <button type="button" data-target="#navbarSupportedContent" data-toggle="collapse" class="navbar-toggler"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a href="FuLian_Homepage.html" class="nav-link">首页</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a data-toggle="dropdown" class="dropdown-toggle nav-link" href="#" id="navbarDropdown1"
+                                   role="button" aria-haspopup="true" aria-expanded="false">
+                                    技术
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <a href="FuLian_Homepage.html#tech" class="dropdown-item">链阵</a>
+                                    <a href="FuLian_Homepage.html#tech" class="dropdown-item">智能合约</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a data-toggle="dropdown" class="dropdown-toggle nav-link" href="#" id="navbarDropdown2"
+                                   role="button" aria-haspopup="true" aria-expanded="false">
+                                    产品
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                    <a href="FuLian_Product.html" class="dropdown-item">福链-区块链技术开放平台</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a data-toggle="dropdown" class="dropdown-toggle nav-link" href="#" id="navbarDropdown3"
+                                   role="button" aria-haspopup="true" aria-expanded="false">
+                                    解决方案
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                    <a href="FuLian_Plan.html" class="dropdown-item">区块链信用报告</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav my-2 my-lg-0">
+                            <li class="nav-item">
+                                <a href="FuLian_News.html" class="nav-link">新闻资讯</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a data-toggle="dropdown" class="dropdown-toggle nav-link" href="#" id="navbarDropdown4"
+                                   role="button" aria-haspopup="true" aria-expanded="false">
+                                    关于我们
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                                    <a href="FuLian_AboutUs_CompanyIntroduce.html" class="dropdown-item">公司介绍</a>
+                                    <a href="FuLian_AboutUs_CompanyIntroduce.html" class="dropdown-item">团队介绍</a>
+                                    <a href="FuLian_AboutUs_CompanyIntroduce.html" class="dropdown-item">发展历程</a>
+                                    <a href="FuLian_AboutUs_CompanyIntroduce.html" class="dropdown-item">招贤纳士</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="carousel slide hp_header_car_mn" id="carousel-101510" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-slide-to="0" data-target="#carousel-101510" class="active">
+                        </li>
+                        <li data-slide-to="1" data-target="#carousel-101510">
+                        </li>
+                        <li data-slide-to="2" data-target="#carousel-101510">
+                        </li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img alt="轮播图1" src="images/homepage_head_carousel1.png" class="d-block w-100 hp_header_car_hei" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>福链科技区块链</h1>
+                                <p>创新的区块链行业应用解决方案服务商</p>
+                                <p>领先的联盟链核心技术开发商</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img alt="轮播图2" src="images/homepage_head_carousel2.png" class="d-block w-100 hp_header_car_hei" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>“链阵”</h1>
+                                <p>自主首创的区块链高性能链阵体系架构</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img alt="轮播图3" src="images/homepage_head_carousel3.png" class="d-block w-100 hp_header_car_hei" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>福链-区块链技术开放平台</h1>
+                                <p>应用领域广泛，如数据共享、电子证照、数字版权、征信、医疗</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a data-slide="prev" href="#carousel-101510" class="carousel-control-prev" role="button">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a data-slide="next" href="#carousel-101510" class="carousel-control-next" role="button">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--技术-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="hp_tech_mn_top" id="tech">
+                    <h3 class="text-center">
+                        <a href="#" class="hp_title_text_sty">创新且性能高的技术</a>
+                        <span class="hp_title_line_sty"></span>
+                    </h3>
+                    <!--有问题待解决-->
+                    <ul class="list-unstyled list-inline hp_tech_list_mn_top">
+                        <li class="list-inline-item">
+                            <div class="hp_tech_sty">
+                                <img src="images/homepage_tech_icon1.png" alt="图标1"/>
+                                <div class="hp_tech_context_text_sty">
+                                    <h6 class="hp_tech_h6_sty">链阵</h6>
+                                    <p class="hp_tech_p_sty">区块链高性能链阵体系架构</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-inline-item hp_tech_context_item_mn_left">
+                            <div class="hp_tech_sty">
+                                <img src="images/homepage_tech_icon2.png" alt="图标2"/>
+                                <div class="hp_tech_context_text_sty">
+                                    <h6 class="hp_tech_h6_sty">分布式</h6>
+                                    <p class="hp_tech_p_sty">基于内容寻址的分布式存储技术</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-inline-item hp_tech_context_item_mn_left">
+                            <div class="hp_tech_sty">
+                                <img src="images/homepage_tech_icon3.png" alt="图标3"/>
+                                <div class="hp_tech_context_text_sty">
+                                    <h6 class="hp_tech_h6_sty">投票共识</h6>
+                                    <p class="hp_tech_p_sty">基于信任列表的共识机制共识机制</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-inline-item hp_tech_context_item_mn_left">
+                            <div class="hp_tech_sty">
+                                <img src="images/homepage_tech_icon4.png" alt="图标4"/>
+                                <div class="hp_tech_context_text_sty">
+                                    <h6 class="hp_tech_h6_sty">智能合约</h6>
+                                    <p class="hp_tech_p_sty">EVM智能集成SQL类操作SQL类操作</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-inline-item hp_tech_context_item_mn_left">
+                            <div class="hp_tech_sty">
+                                <img src="images/homepage_tech_icon5.png" alt="图标5"/>
+                                <div class="hp_tech_context_text_sty">
+                                    <h6 class="hp_tech_h6_sty">数据库+区块链</h6>
+                                    <p class="hp_tech_p_sty">基于区块链的数据库应用平台</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <div class="hp_tech_sty">
+                                <img src="images/homepage_tech_icon6.png" alt="图标6"/>
+                                <div class="hp_tech_context_text_sty">
+                                    <h6 class="hp_tech_h6_sty">ILP技术 </h6>
+                                    <p class="hp_tech_p_sty">使用ILP技术实现的跨链资产转移协议</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-inline-item hp_tech_context_item_mn_left">
+                            <div class="hp_tech_sty">
+                                <img src="images/homepage_tech_icon7.png" alt="图标7"/>
+                                <div class="hp_tech_context_text_sty">
+                                    <h6 class="hp_tech_h6_sty">国密算法+区块链</h6>
+                                    <p class="hp_tech_p_sty">全面应用国密算法的区块链平台</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-inline-item hp_tech_context_item_mn_left">
+                            <div class="hp_tech_sty">
+                                <img src="images/homepage_tech_icon8.png" alt="图标8"/>
+                                <div class="hp_tech_context_text_sty">
+                                    <h6 class="hp_tech_h6_sty">时空区块链</h6>
+                                    <p class="hp_tech_p_sty">与北斗卫星定位系统相结合的时空数据库</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-inline-item hp_tech_context_item_mn_left">
+                            <div class="hp_tech_sty">
+                                <img src="images/homepage_tech_icon9.png" alt="图标9"/>
+                                <div class="hp_tech_context_text_sty">
+                                    <h6 class="hp_tech_h6_sty">AI+区块链</h6>
+                                    <p class="hp_tech_p_sty">深度学习算法应用于区块链技术</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-inline-item hp_tech_context_item_mn_left">
+                            <div class="hp_tech_sty">
+                                <img src="images/homepage_tech_icon10.png" alt="图标10"/>
+                                <div class="hp_tech_context_text_sty">
+                                    <h6 class="hp_tech_h6_sty">区块链技术集成</h6>
+                                    <p class="hp_tech_p_sty">各种区块链平台的快速部署及应用</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--产品-->
+        <div class="row">
+            <div class="col-md-12">
+                <!--有问题待解决-->
+                <div class="hp_prod_whole_sty">
+                    <h3 class="text-center hp_prod_title_mn_top">
+                        <a href="#" class="hp_title_text_sty">基于区块链的产品</a>
+                        <span class="hp_title_line_sty"></span>
+                    </h3>
+                    <div class="carousel slide hp_prod_context_mn_bottom" id="carousel-554401" data-ride="carousel">
+                        <!--<ol class="carousel-indicators">
+                            <li data-slide-to="0" data-target="#carousel-554401" class="active">
+                            </li>
+                            <li data-slide-to="1" data-target="#carousel-554401">
+                            </li>
+                            <li data-slide-to="2" data-target="#carousel-554401">
+                            </li>
+                        </ol>-->
+                        <!--有问题待解决-->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active hp_prod_context_mn_top">
+                                <ul class="list-unstyled list-inline">
+                                    <li class="list-inline-item hp_prod_context_li_sty">
+                                        <div class="thumbnail hp_prod_context_item_sty">
+                                            <a href="#">
+                                                <img src="images/homepage_prod_pic1.jpg" alt="产品1">
+                                                <div class="caption hp_prod_context_item_text_sty">
+                                                    <h5 class="hp_prod_context_item_h_sty">ChainSQL</h5>
+                                                    <p class="hp_prod_text_sty">ChainSQL综合了区块链技术与传统数据库的优点，不仅具有区块链的分布式、去中心化、可审计的特性</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item hp_prod_context_li_sty">
+                                        <div class="thumbnail hp_prod_context_item_sty">
+                                            <a href="#">
+                                                <img src="images/homepage_prod_pic2.jpeg" alt="产品2">
+                                                <div class="caption hp_prod_context_item_text_sty">
+                                                    <h5 class="hp_prod_context_item_h_sty">WisChain区块链应用平台</h5>
+                                                    <p class="hp_prod_text_sty">众享区块链应用平台构建高效、安全、智能、可扩展的企业级区块链架构体系。采用一键部署、多框架支持及多链技术</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item hp_prod_context_li_sty">
+                                        <div class="thumbnail hp_prod_context_item_sty">
+                                            <a href="#">
+                                                <img src="images/homepage_prod_pic3.jfif" alt="产品3">
+                                                <div class="caption hp_prod_context_item_text_sty">
+                                                    <h5 class="hp_prod_context_item_h_sty">PeerSafe网络基础协议</h5>
+                                                    <p class="hp_prod_text_sty">福链借助区块链技术优势和“沙计算”网络平台,从接入安全、通信安全、存储安全、交易安全构建去中心化的网络安全体系</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item hp_prod_context_li_sty">
+                                        <div class="thumbnail hp_prod_context_item_sty">
+                                            <a href="#">
+                                                <img src="images/homepage_prod_pic4.jpg" alt="产品4">
+                                                <div class="caption hp_prod_context_item_text_sty">
+                                                    <h5 class="hp_prod_context_item_h_sty">众享联盟链</h5>
+                                                    <p class="hp_prod_text_sty">众享联盟链提供高品质企业级区块链服务，采用六层系统架构。基础设施层既能利用云平台设施，也支持物理机本地部署</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="carousel-item hp_prod_context_mn_top">
+                                <ul class="list-unstyled list-inline">
+                                    <li class="list-inline-item hp_prod_context_li_sty">
+                                        <div class="thumbnail hp_prod_context_item_sty">
+                                            <a href="#">
+                                                <img src="images/homepage_prod_pic5.jfif" alt="产品5">
+                                                <div class="caption hp_prod_context_item_text_sty">
+                                                    <h5 class="hp_prod_context_item_h_sty">众享联盟链治理平台</h5>
+                                                    <p class="hp_prod_text_sty">HyperLedger Fabric是一个面向企业应用的区块链框架，也是目前主流的开源技术框架之一，功能强大，应用比较广泛</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item hp_prod_context_li_sty">
+                                        <div class="thumbnail hp_prod_context_item_sty">
+                                            <a href="#">
+                                                <img src="images/homepage_prod_pic6.jpeg" alt="产品6">
+                                                <div class="caption hp_prod_context_item_text_sty">
+                                                    <h5 class="hp_prod_context_item_h_sty">众享区块链供应链金融平台</h5>
+                                                    <p class="hp_prod_text_sty">传统供应链金融中单笔交易量巨大，而产业链长、参与方众多、支付模式复杂，金融机构难以把控风险</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item hp_prod_context_li_sty">
+                                        <div class="thumbnail hp_prod_context_item_sty">
+                                            <a href="#">
+                                                <img src="images/homepage_prod_pic7.jpg" alt="产品7">
+                                                <div class="caption hp_prod_context_item_text_sty">
+                                                    <h5 class="hp_prod_context_item_h_sty">众享区块链积分平台</h5>
+                                                    <p class="hp_prod_text_sty">众享区块链积分平台，为企业用户提供可快速落地、高价值的基于区块链的积分平台解决方案。该方案灵活应用于对外营销</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item hp_prod_context_li_sty">
+                                        <div class="thumbnail hp_prod_context_item_sty">
+                                            <a href="#">
+                                                <img src="images/homepage_prod_pic8.png" alt="产品8">
+                                                <div class="caption hp_prod_context_item_text_sty">
+                                                    <h5 class="hp_prod_context_item_h_sty">众享区块链溯源平台</h5>
+                                                    <p class="hp_prod_text_sty">众享溯源平台基于福链公司成熟开源的区块链底层设计，面向政府、企业等各类型溯源行业组织提供安全、易用的信息录入</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="carousel-item hp_prod_context_mn_top">
+                                <ul class="list-unstyled list-inline">
+                                    <li class="list-inline-item hp_prod_context_li_sty">
+                                        <div class="thumbnail hp_prod_context_item_sty">
+                                            <a href="#">
+                                                <img src="images/homepage_prod_pic9.jfif" alt="产品9">
+                                                <div class="caption hp_prod_context_item_text_sty">
+                                                    <h5 class="hp_prod_context_item_h_sty">众享区块链数据共享平台</h5>
+                                                    <p class="hp_prod_text_sty">该平台是一个提供数据资产和服务的联盟链生态系统。平台连接数据生产者和消费者以及提供定价的许可框架来促进发展</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item hp_prod_context_li_sty">
+                                        <div class="thumbnail hp_prod_context_item_sty">
+                                            <a href="#">
+                                                <img src="images/homepage_prod_pic10.jpg" alt="产品10">
+                                                <div class="caption hp_prod_context_item_text_sty">
+                                                    <h5 class="hp_prod_context_item_h_sty">众享区块链存证平台</h5>
+                                                    <p class="hp_prod_text_sty">联合司法公证处、司法鉴定所、法院等机构，建立联盟链，以电子数据为操作对象，将证据固化在众享区块链存证平台</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item hp_prod_context_li_sty">
+                                        <div class="thumbnail hp_prod_context_item_sty">
+                                            <a href="#">
+                                                <img src="images/homepage_prod_pic11.jfif" alt="产品11">
+                                                <div class="caption hp_prod_context_item_text_sty">
+                                                    <h5 class="hp_prod_context_item_h_sty">比特币浏览器</h5>
+                                                    <p class="hp_prod_text_sty">比特币浏览器，提供便于使用的比特币查询跟踪服务，旨在帮助用户更方便、更快速、更灵活地查看区块信息和交易详情</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item hp_prod_context_li_sty">
+                                        <div class="thumbnail hp_prod_context_item_sty">
+                                            <a href="#">
+                                                <img src="images/homepage_prod_pic12.jpg" alt="产品12">
+                                                <div class="caption hp_prod_context_item_text_sty">
+                                                    <h5 class="hp_prod_context_item_h_sty">ShadowWallet众享钱包</h5>
+                                                    <p class="hp_prod_text_sty">ShadowWallet，一款基于区块链的数字资产交易平台，使用众享比特自主研发的区块链数据库应用平台ChainSQL作为底层</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="carousel-item hp_prod_context_mn_top">
+                                <ul class="list-unstyled list-inline">
+                                    <li class="list-inline-item hp_prod_context_li_sty">
+                                        <div class="thumbnail hp_prod_context_item_sty">
+                                            <a href="#">
+                                                <img src="images/homepage_prod_pic13.jpg" alt="产品13">
+                                                <div class="caption hp_prod_context_item_text_sty">
+                                                    <h5 class="hp_prod_context_item_h_sty">众享区块链存证平台</h5>
+                                                    <p class="hp_prod_text_sty">联合司法公证处、司法鉴定所、法院等机构，建立联盟链，以电子数据为操作对象，将证据固化在众享区块链存证平台</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item hp_prod_context_li_sty">
+                                        <div class="thumbnail hp_prod_context_item_sty">
+                                            <a href="#">
+                                                <img src="images/homepage_prod_pic14.jpeg" alt="产品14">
+                                                <div class="caption hp_prod_context_item_text_sty">
+                                                    <h5 class="hp_prod_context_item_h_sty">比特币浏览器</h5>
+                                                    <p class="hp_prod_text_sty">比特币浏览器，提供便于使用的比特币查询跟踪服务，旨在帮助用户更方便、更快速、更灵活地查看区块信息和交易详情</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item hp_prod_context_li_sty">
+                                        <div class="thumbnail hp_prod_context_item_sty">
+                                            <a href="#">
+                                                <img src="images/homepage_prod_pic15.jfif" alt="产品15">
+                                                <div class="caption hp_prod_context_item_text_sty">
+                                                    <h5 class="hp_prod_context_item_h_sty">ShadowWallet众享钱包</h5>
+                                                    <p class="hp_prod_text_sty">ShadowWallet，一款基于区块链的数字资产交易平台，使用众享比特自主研发的区块链数据库应用平台ChainSQL作为底层</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item hp_prod_context_li_sty">
+                                        <div class="thumbnail hp_prod_context_item_sty">
+                                            <a href="#">
+                                                <img src="images/homepage_prod_pic16.jpg" alt="产品16">
+                                                <div class="caption hp_prod_context_item_text_sty">
+                                                    <h5 class="hp_prod_context_item_h_sty">沙盘分布式存储软件</h5>
+                                                    <p class="hp_prod_text_sty">沙盘，一款安全可靠的文件分享工具，基于PDFS构建分布式文件系统网络，将文件内容以加密方式存储在分布式网络中</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a data-slide="prev" href="#carousel-554401" class="carousel-control-prev" role="button">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a>
+                        <a data-slide="next" href="#carousel-554401" class="carousel-control-next" role="button">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--解决方案-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="hp_plan_whole_sty">
+                    <h3 class="text-center">
+                        <a href="#" class="hp_title_text_sty">多范畴的解决方案</a>
+                        <span class="hp_title_line_sty"></span>
+                    </h3>
+                    <div class="hp_plan_context_whole_sty">
+                        <ul class="list-unstyled list-inline">
+                            <li class="hp_plan_size list-inline-item" id="dom1">
+                                <div class="thumbnail hp_plan_context_show_item1_whole_sty" id="show1">
+                                    <img alt="供应链金融+区块链" src="images/homepage_plan_icon1.png" class="hp_plan_context_item_show_icon" />
+                                    <!--<div class="hp_plan_context_item_show_line"></div>-->
+                                    <div class="caption hp_plan_context_item_show_tit">
+                                        <h4>
+                                            金融+区块链
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="thumbnail hp_plan_context_hid_item_whole_sty" id="hid1">
+                                    <img alt="供应链金融+区块链" src="images/homepage_plan_icon1(hid).png" class="hp_plan_context_item_hid_icon" />
+                                    <div class="caption hp_plan_context_item_hid_tit">
+                                        <h4>
+                                            金融+区块链
+                                        </h4>
+                                        <ul class="list-unstyled hp_plan_context_item_hid_list">
+                                            <li><a href="#">区块链资产交易管理系统</a></li>
+                                            <li><a href="#">区块链清分管理系统</a></li>
+                                            <!--<li><a href="#">区块链交易监管平台</a></li>
+                                            <li><a href="#">区块链信用证管理平台</a></li>
+                                            <li><a href="#">区块链保函管理平台</a></li>
+                                            <li><a href="#">区块链票据交易平台</a></li>
+                                            <li><a href="#">区块链贷后资金管理平台</a></li>
+                                            <li><a href="#">区块链ABS平台</a></li>-->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="hp_plan_size list-inline-item" id="dom2">
+                                <div class="thumbnail hp_plan_context_show_item2_whole_sty" id="show2">
+                                    <img alt="征信+区块链" src="images/homepage_plan_icon2.png" class="hp_plan_context_item_show_icon" />
+                                    <!--<div class="hp_plan_context_item_show_line"></div>-->
+                                    <div class="caption hp_plan_context_item_show_tit">
+                                        <h4>
+                                            征信+区块链
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="thumbnail hp_plan_context_hid_item_whole_sty" id="hid2">
+                                    <img alt="征信+区块链" src="images/homepage_plan_icon2(hid).png" class="hp_plan_context_item_hid_icon" />
+                                    <div class="caption hp_plan_context_item_hid_tit">
+                                        <h4>
+                                            征信+区块链
+                                        </h4>
+                                        <ul class="list-unstyled hp_plan_context_item_hid_list">
+                                            <li><a href="#">政务数据监管应用</a></li>
+                                            <li><a href="#">政务数据同步及安全保护</a></li>
+                                            <!--<li><a href="#">政务系统身份与权限保护</a></li>
+                                            <li><a href="#">政务系统通讯应用-保密通讯</a></li>-->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="hp_plan_size list-inline-item" id="dom3">
+                                <div class="thumbnail hp_plan_context_show_item3_whole_sty" id="show3">
+                                    <img alt="医疗+区块链" src="images/homepage_plan_icon3.png" class="hp_plan_context_item_show_icon" />
+                                    <!--<div class="hp_plan_context_item_show_line"></div>-->
+                                    <div class="caption hp_plan_context_item_show_tit">
+                                        <h4>
+                                            医疗+区块链
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="thumbnail hp_plan_context_hid_item_whole_sty" id="hid3">
+                                    <img alt="医疗+区块链" src="images/homepage_plan_icon3(hid).png" class="hp_plan_context_item_hid_icon" />
+                                    <div class="caption hp_plan_context_item_hid_tit">
+                                        <h4>
+                                            医疗+区块链
+                                        </h4>
+                                        <ul class="list-unstyled hp_plan_context_item_hid_list">
+                                            <li><a href="#">视频监控存证平台</a></li>
+                                            <li><a href="#">文件防篡改平台</a></li>
+                                            <!--<li><a href="#">智能锁联盟平台</a></li>-->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="hp_plan_size list-inline-item" id="dom4">
+                                <div class="thumbnail hp_plan_context_show_item4_whole_sty" id="show4">
+                                    <img alt="电子证照+区块链" src="images/homepage_plan_icon4.png" class="hp_plan_context_item_show_icon" />
+                                    <!--<div class="hp_plan_context_item_show_line"></div>-->
+                                    <div class="caption hp_plan_context_item_show_tit">
+                                        <h4>
+                                            电子证照+区块链
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="thumbnail hp_plan_context_hid_item_whole_sty" id="hid4">
+                                    <img alt="电子证照+区块链" src="images/homepage_plan_icon4(hid).png" class="hp_plan_context_item_hid_icon" />
+                                    <div class="caption hp_plan_context_item_hid_tit">
+                                        <h4>
+                                            电子证照+区块链
+                                        </h4>
+                                        <ul class="list-unstyled hp_plan_context_item_hid_list">
+                                            <li><a href="#">区块链物流追踪平台</a></li>
+                                            <li><a href="#">区块链仓储管理平台</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="hp_plan_size list-inline-item" id="dom5">
+                                <div class="thumbnail hp_plan_context_show_item5_whole_sty" id="show5">
+                                    <img alt="数字版权+区块链" src="images/homepage_plan_icon5.png" class="hp_plan_context_item_show_icon" />
+                                    <!--<div class="hp_plan_context_item_show_line"></div>-->
+                                    <div class="caption hp_plan_context_item_show_tit">
+                                        <h4>
+                                            数字版权+区块链
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="thumbnail hp_plan_context_hid_item_whole_sty" id="hid5">
+                                    <img alt="数字版权+区块链" src="images/homepage_plan_icon5(hid).png" class="hp_plan_context_item_hid_icon" />
+                                    <div class="caption hp_plan_context_item_hid_tit">
+                                        <h4>
+                                            数字版权+区块链
+                                        </h4>
+                                        <ul class="list-unstyled hp_plan_context_item_hid_list">
+                                            <li><a href="#">众享智能电源网络安全传输系统</a></li>
+                                            <li><a href="#">众享智能电源网络安全传输系统</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--新闻资讯-->
+        <div class="row">
+            <div class="col-md-12 hp_news_whole_sty">
+                <div class="row">
+                    <div class="col-md-12">
+                            <h3 class="text-center hp_prod_title_mn_top">
+                                <a href="#" class="hp_title_text_sty">新闻资讯</a>
+                                <span class="hp_title_line_sty"></span>
+                            </h3>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="hp_news_context_left_sty">
+                            <img alt="新闻资讯" src="images/homepage_news_pic.png" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="hp_news_context_right_sty">
+                            <div class="media hp_news_context_right_item_sty">
+                                <div class="pull-left hp_news_med_left mr-3">
+                                    <p class="hp_news_med_left_count">32</p>
+                                    <p class="hp_news_med_left_time">2019-07</p>
+                                </div>
+                                <!--有问题待解决-->
+                                <div class="media-body hp_news_context_right_body_sty" contenteditable="true">
+                                    <h5 class="media-heading"><a href="#" class="hp_news_med_rig_h">福链科技在第二届数字中国建设峰会上表现出色</a></h5>
+                                    <a href="#" class="hp_news_med_rig_p">福链科技在第二届数字中国建设峰会上发表了全国首份区块链信用报告</a>
+                                </div>
+                            </div>
+                            <div class="media hp_news_context_right_item_sty">
+                                <div class="pull-left hp_news_med_left mr-3">
+                                    <p class="hp_news_med_left_count">33</p>
+                                    <p class="hp_news_med_left_time">2019-07</p>
+                                </div>
+                                <!--有问题待解决-->
+                                <div class="media-body hp_news_context_right_body_sty" contenteditable="true">
+                                    <h5 class="media-heading"><a href="#" class="hp_news_med_rig_h">福链科技在第二届数字中国建设峰会上表现出色</a></h5>
+                                    <a href="#" class="hp_news_med_rig_p">福链科技在第二届数字中国建设峰会上发表了全国首份区块链信用报告</a>
+                                </div>
+                            </div>
+                            <div class="media hp_news_context_right_item_sty">
+                                <div class="pull-left hp_news_med_left mr-3">
+                                    <p class="hp_news_med_left_count">34</p>
+                                    <p class="hp_news_med_left_time">2019-07</p>
+                                </div>
+                                <!--有问题待解决-->
+                                <div class="media-body hp_news_context_right_body_sty" contenteditable="true">
+                                    <h5 class="media-heading"><a href="#" class="hp_news_med_rig_h">福链科技在第二届数字中国建设峰会上表现出色</a></h5>
+                                    <a href="#" class="hp_news_med_rig_p">福链科技在第二届数字中国建设峰会上发表了全国首份区块链信用报告</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--合作伙伴-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="hp_part_mn_top">
+                    <h3 class="text-center">
+                        <span class="hp_title_text_sty">合作伙伴</span>
+                        <span class="hp_title_line_sty"></span>
+                    </h3>
+                    <div class="carousel slide" id="carousel-443304" data-ride="carousel">
+                        <!--<ol class="carousel-indicators">
+                            <li data-slide-to="0" data-target="#carousel-443304" class="active">
+                            </li>
+                            <li data-slide-to="1" data-target="#carousel-443304">
+                            </li>
+                            <li data-slide-to="2" data-target="#carousel-443304">
+                            </li>
+                        </ol>-->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <ul class="list-unstyled list-inline hp_part_context_whole_sty">
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <img src="images/homepage_part_uestc_logo.png" alt="电子科技大学logo" class="d-block w-100 hp_part_context_item_size">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item hp_part_context_item_nm_left">
+                                        <a href="#">
+                                            <img src="images/homepage_part_XunYao_logo.png" alt="迅鳐logo" class="d-block w-100 hp_part_context_item_size">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item hp_part_context_item_nm_left">
+                                        <a href="#">
+                                            <img src="images/homepage_part_ict_logo.jpg" alt="ICTlogo" class="d-block w-100 hp_part_context_item_size">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item hp_part_context_item_nm_left">
+                                        <a href="#">
+                                            <img src="images/homepage_part_XinXiGongCheng_logo.png" alt="信息工程大学logo" class="d-block w-100 hp_part_context_item_size">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="carousel-item">
+                                <ul class="list-unstyled list-inline hp_part_context_whole_sty">
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <img src="images/homepage_part_ChangWei_logo.jpg" alt="长威logo" class="d-block w-100 hp_part_context_item_size">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item hp_part_context_item_nm_left">
+                                        <a href="#">
+                                            <img src="images/homepage_part_WeiKeMu_logo.png" alt="威科姆logo" class="d-block w-100 hp_part_context_item_size">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item hp_part_context_item_nm_left">
+                                        <a href="#">
+                                            <img src="images/homepage_part_WangAn_logo.png" alt="中国网安logo" class="d-block w-100 hp_part_context_item_size">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item hp_part_context_item_nm_left">
+                                        <a href="#">
+                                            <img src="images/homepage_part_BuBi_logo.png" alt="布比logo" class="d-block w-100 hp_part_context_item_size">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="carousel-item">
+                                <ul class="list-unstyled list-inline hp_part_context_whole_sty">
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <img src="images/homepage_part_FuDan_logo.png" alt="复旦大学logo" class="d-block w-100 hp_part_context_item_size">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item hp_part_context_item_nm_left">
+                                        <a href="#">
+                                            <img src="images/homepage_part_bit_logo.png" alt="比特大陆logo" class="d-block w-100 hp_part_context_item_size">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item hp_part_context_item_nm_left">
+                                        <a href="#">
+                                            <img src="images/homepage_part_QuLian_logo.png" alt="趣链logo" class="d-block w-100 hp_part_context_item_size">
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item hp_part_context_item_nm_left">
+                                        <a href="#">
+                                            <img src="images/homepage_part_ZhongHaiChuang_logo.jpg" alt="中海创logo" class="d-block w-100 hp_part_context_item_size">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a data-slide="prev" href="#carousel-443304" class="carousel-control-prev" role="button">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a>
+                        <a data-slide="next" href="#carousel-443304" class="carousel-control-next" role="button">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--关于我们-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="hp_us_who_sty">
+                    <a href="FuLian_AboutUs_CompanyIntroduce.html">
+                        <p class="hp_us_text_sty">
+                            <i>关于我们</i>
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--底部-->
+        <div class="row hp_footer_bg_sty">
+            <div class="col-md-7">
+                <div class="hp_footer_left_text_sty">
+                    <p>福建福链科技有限公司</p>
+                    <p>公司网址：</p>
+                    <p>联系电话：</p>
+                    <p>联系地址：福建省福州市鼓楼区福州软件园B区11号415</p>
+                    <p>Copyright&nbsp;<span class="glyphicon glyphicon-copyright-mark"></span>&nbsp;2018-无固定期限&nbsp;福建福链科技有限公司&nbsp;版权所有&nbsp;</p>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="hp_footer_right_mn_top">
+                    <div class="media">
+                        <img src="images/homepage_foot_ErWeiMa_pic.jpg" class="mr-3 hp_footer_right_pic_sty" alt='公司二维码' />
+                        <div class="media-body">
+                            <h6 class="hp_footer_h_sty">
+                                微信公众号<img src="images/homepage_foot_WeiXin_icon.png" alt="微信图标" />
+                            </h6>
+                            <p class="hp_footer_right_text_sty">扫码关注福链科技公众号，了解更多资讯</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

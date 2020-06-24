@@ -1,0 +1,53 @@
+.au_comp_whole_sty{
+    background-color: #eeeeee;
+}
+.au_comp_header_whole_sty{
+    height: 320px;
+    background: url("../images/aboutus_company_header_bgpic.png") no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+}
+.au_comp_nav_whole_sty{
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    height: 55px;
+    line-height: 55px;
+    font-size: 19px;
+    background-color: white;
+    box-shadow: 1px 1px 3px #bbb;
+    margin-top: -27.5px;
+    margin-bottom: 37px;
+}
+.au_comp_nav_whole_sty li a{
+    color: #1b1e21;
+}
+.au_comp_nav_whole_sty li a:hover{
+    text-decoration: none;
+    color: #5b9ba1;
+}
+.au_comp_nav_item_mn_left{
+    margin-left: 160px;
+}
+.au_comp_body_whole_sty{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    background-color: white;
+    border: 1px solid #c6c8ca;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 15px;
+    margin-bottom: 60px;
+}
+.au_comp_body_whole_sty h6{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.au_comp_body_whole_sty p{
+    text-indent: 2em;
+    font-size: 14px;
+    color: #666666;
+    line-height: 25px;
+}
